@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default class Navbar extends Component {
     render() {
         return (
-            <div className='mt-2'>
+            <div className='pt-2'>
                 <nav className="navbar bg-light">
                     <form className="container-fluid justify-content-start">
                         <Link to="/" className="btn btn-outline-info mx-1 rounded-pill px-3">Basic</Link>

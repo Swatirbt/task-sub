@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class General extends Component {
     render() {
         return (
-            <div className='container mt-3'>
+            <div className='container mt-3 p-5'>
                 <p className='Lead'><b>General Information</b></p>
                 <div className="mb-2">
                     <input type="text" className="form-control" placeholder="Phone Number" />

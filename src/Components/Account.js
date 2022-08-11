@@ -4,7 +4,7 @@ export default class Account extends Component {
     render() {
         return (
             <div>
-                <div className='container mt-3'>
+                <div className='container mt-3 p-5'>
                     <p className='lead'><b>Account Data</b></p>
                     <div className="mb-2">
                         <input type="text" className="form-control" placeholder="ChandlerBing" />
